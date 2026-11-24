@@ -1,0 +1,36 @@
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 23px;
+  height: 23px;
+  fill: #0f172a;
+  color: #312c85;
+  margin: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: 700;
+  color: #312c85;
+}
+
+@media (max-width: 639px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
